@@ -19,6 +19,10 @@ ALLOWED_HOSTS = []
 
 AUTH_USER_MODEL = "usuarios.Usuario"
 
+LOGIN_REDIRECT_URL = '/mis-grupos'
+
+LOGOUT_REDIRECT_URL = '/iniciar-sesion'
+
 
 # Application definition
 
